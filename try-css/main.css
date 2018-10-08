@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css?family=PT+Sans|PT+Serif");
+
+body {
+  margin: auto;
+  width: 960px;
+  font-family: "PT Serif", serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "PT Sans Caption", sans-serif;
+}
+
+a {
+  color: #3498db;
+  text-decoration: none;
+  border-bottom: 1px solid;
+}
+
+p.first-paragraph:first-letter,
+p:first-of-type:first-letter {
+  padding-left: 0;
+}
+
+p:first-letter {
+  padding-left: 2rem;
+}
+
+a:focus {
+  text-shadow: 0 0 1px #2980b9;
+}
+
+a:visited {
+  color: #9b59b6;
+}
+
+a[href*="#"] {
+  text-decoration: none;
+  border-bottom: 1px dashed;
+}
+
+code {
+  font-family: "PT Mono", monospace;
+  color: #e74c3c;
+}
+
+#logo {
+  color: transparent;
+  background-size: contain;
+  height: 143px;
+  width: 210px;
+}
